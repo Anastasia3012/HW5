@@ -4,32 +4,27 @@ public class Main {
     public static void main(String[] args) {
 
 //        Задание1
-        int age = 20;
+        int age = 10;
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний.");
-        }
-
-        if (age < 18) {
+        } else {
             System.out.println("Если возраст человека равен " + age + ", то он не достиг совершеннолетия, нужно немного подождать.");
         }
 
 
 //        Задание2
-        int temp = 7;
+        int temp = 4;
         if (temp < 5) {
             System.out.println("На улице холодно, нужно надеть шапку.");
-        }
-
-        if (temp >= 5) {
+        } else {
             System.out.println("Сегодня тепло, можно идти без шапки.");
         }
 
 //        Задание3
-        int speed = 55;
+        int speed = 100;
         if (speed > 60) {
             System.out.println("Если скорость " + speed + " км/ч, то придется заплатить штраф");
-        }
-        if (speed <= 60) {
+        } else {
             System.out.println("Если скорость " + speed + " км/ч, то можно ездить спокойно");
         }
 
